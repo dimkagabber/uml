@@ -12,6 +12,6 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_DSFyEIN4Eei9zNz9j3G_GA" general="_5OfmMIN3Eei9zNz9j3G_GA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_G3ekYIN4Eei9zNz9j3G_GA" client="_7l0p8IN3Eei9zNz9j3G_GA" supplier="_DRU9EIN4Eei9zNz9j3G_GA"/>
-  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_dnCskIN4Eei9zNz9j3G_GA" name="InstanceSpecificationName"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_dnCskIN4Eei9zNz9j3G_GA" name="InstanceSpecificationNameTmp"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_dnpwkIN4Eei9zNz9j3G_GA" client="_dnCskIN4Eei9zNz9j3G_GA" supplier="_7l0p8IN3Eei9zNz9j3G_GA"/>
 </uml:Model>
