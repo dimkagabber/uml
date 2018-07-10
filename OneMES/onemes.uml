@@ -148,6 +148,7 @@
           <body>Test: CHAR</body>
         </ownedComment>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wCn5AIQmEei6X_8njYMUNg" name="DummyProperty2"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_NhUAaYOSEeidP68LryeGvQ" name="SET_DATA" visibility="public">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_NhUAaoOSEeidP68LryeGvQ" name="SOURCE_DATA" type="_NhUAiIOSEeidP68LryeGvQ" isUnique="false">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NhUAbIOSEeidP68LryeGvQ" value="1"/>
