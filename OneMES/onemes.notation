@@ -476,6 +476,10 @@
         <element xmi:type="uml:Property" href="onemes.uml#_NhUAaIOSEeidP68LryeGvQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_naXjYYQeEei6X_8njYMUNg"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_W7rpwIQmEei6X_8njYMUNg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="onemes.uml#_W6f-AIQmEei6X_8njYMUNg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_W7rpwYQmEei6X_8njYMUNg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_3T-V1oQdEei6X_8njYMUNg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_3T-V14QdEei6X_8njYMUNg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_3T-V2IQdEei6X_8njYMUNg"/>

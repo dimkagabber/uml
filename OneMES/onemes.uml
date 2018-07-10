@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http:///schemas/default/_NiBK8IOSEeidP68LryeGvQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/default/_NiBK8IOSEeidP68LryeGvQ/0 default.profile.uml#_NjKad4OSEeidP68LryeGvQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:default="http:///schemas/default/_NiBK8IOSEeidP68LryeGvQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http:///schemas/default/_NiBK8IOSEeidP68LryeGvQ/0 default.profile.uml#_NjKad4OSEeidP68LryeGvQ">
   <uml:Model xmi:id="_NhQ9AIOSEeidP68LryeGvQ" name="onemes">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NhQ9AYOSEeidP68LryeGvQ" source="Objing">
       <contents xmi:type="uml:Property" xmi:id="_NhQ9AoOSEeidP68LryeGvQ" name="exporterVersion">
@@ -143,6 +143,11 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NhUAZ4OSEeidP68LryeGvQ"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_NhUAaIOSEeidP68LryeGvQ" name="DATA" visibility="public" type="_NhUAYoOSEeidP68LryeGvQ" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_W6f-AIQmEei6X_8njYMUNg" name="Property5">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_YuaysIQmEei6X_8njYMUNg">
+          <body>Test: CHAR</body>
+        </ownedComment>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_NhUAaYOSEeidP68LryeGvQ" name="SET_DATA" visibility="public">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_NhUAaoOSEeidP68LryeGvQ" name="SOURCE_DATA" type="_NhUAiIOSEeidP68LryeGvQ" isUnique="false">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NhUAbIOSEeidP68LryeGvQ" value="1"/>
@@ -316,6 +321,13 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="default.profile.uml#_NjKacIOSEeidP68LryeGvQ"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Yu2QgIQmEei6X_8njYMUNg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YvABgIQmEei6X_8njYMUNg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <default:type xmi:id="_Nk1OYIOSEeidP68LryeGvQ" base_Element="_NhQ9BIOSEeidP68LryeGvQ"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_YvHWQIQmEei6X_8njYMUNg" base_Comment="_YuaysIQmEei6X_8njYMUNg" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
 </xmi:XMI>
